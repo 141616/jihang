@@ -22,20 +22,22 @@
       <p class="author"></p>
     </div>
     <div class="content-wrapper">
-      <div class="content" id="content"></div>
-    </div>
-    <div style="letter-spacing: 0px;">
-      <p class="bgm"></p>
-      <p><span id="bgmSourceFix"></span><a class="bgm-source" href=""></a></p>
-      <p class="reporter"></p>
+      <div class="content" id="content">
+        <div class="content-p"></div>
+        <div style="margin-top: 30px;">
+          <p class="bgm"></p>
+          <p><span id="bgmSourceFix"></span><a class="bgm-source" href=""></a></p>
+          <p class="reporter"></p>
+        </div>
+      </div>
     </div>
     <div class="footer">
       <div class="controls">
-        <div class="pre controls-icon" ></div>
+        <div class="pre controls-icon" id="pre"></div>
         <div class="play" id="play"></div>
-        <div class="next controls-icon"></div>
+        <div class="next controls-icon" id="next"></div>
       </div>
-      <div class="time-controls">
+      <div class="time-controls" id="timeControls">
         <div id="playTime" class="time"></div>
         <div class="timeline">
           <div class="timeline__active" id="progress">
