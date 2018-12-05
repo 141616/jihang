@@ -16,13 +16,18 @@
   <!-- <link rel="stylesheet" href="./index.css"> -->
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper" id="wrapper">
     <div class="header">
       <p class="title"></p>
       <p class="author"></p>
     </div>
     <div class="content-wrapper">
       <div class="content" id="content"></div>
+    </div>
+    <div style="letter-spacing: 0px;">
+      <p class="bgm"></p>
+      <p><span id="bgmSourceFix"></span><a class="bgm-source" href=""></a></p>
+      <p class="reporter"></p>
     </div>
     <div class="footer">
       <div class="controls">
@@ -31,7 +36,7 @@
         <div class="next controls-icon"></div>
       </div>
       <div class="time-controls">
-        <div id="playTime" class="time">0:00</div>
+        <div id="playTime" class="time"></div>
         <div class="timeline">
           <div class="timeline__active" id="progress">
             <i class="timeline__active__ball"></i>
