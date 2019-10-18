@@ -2039,7 +2039,6 @@ var audios = {
 };
 module.exports = audios;
 
-
 /***/ }),
 
 /***/ "./src/bgs.js":
